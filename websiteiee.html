@@ -1,0 +1,79 @@
+<html>
+<head>
+    <title>News Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .card {
+            position: relative;
+            width: 30%;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card .label {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #7e3af2;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .card .content {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .card .tag {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="adam.jpg" alt="adamarteryy"/>
+            <div class="label">Terbaru</div>
+            <div class="content">adam kumis</div>
+            <div class="tag">Anomali IEEE</div>
+        </div>
+        <div class="card">
+            <img src="eja.jpg" alt="ejabirach"/>
+            <div class="content">ejabi imut</div>
+            <div class="tag">Anomali Perkuliahan</div>
+        </div>
+        <div class="card">
+            <img src="sofwan.jpg" alt="songwan"/>
+            <div class="content">sofwan ganteng</div>
+            <div class="tag">Anomali Fisdas</div>
+        </div>
+    </div>
+</body>
+</html>
